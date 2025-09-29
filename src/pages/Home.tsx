@@ -22,12 +22,7 @@ const Home: React.FC = () => {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('19b.jpg')`
         }}
       />
-      
-      <div className="relative z-10 flex flex-col min-h-screen pt-20">
-        {/* Religion Symbols */}
-        <div className="flex-shrink-0 px-4 pt-8">
-          <
-        </div>
+    
 
         {/* Main Content */}
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
