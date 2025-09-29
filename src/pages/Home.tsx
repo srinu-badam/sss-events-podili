@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1071081/pexels-photo-1071081.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/19b.jpg')`
         }}
       />
 
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
           >
             <div className="flex flex-col items-center space-y-4">
               <img 
-                src="https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" 
+                src="/logo.png" 
                 alt="SSS Events Logo"
                 className="w-40 h-40 object-contain bg-white/10 backdrop-blur-sm rounded p-5 shadow-2xl"
               />
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
           >
             <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
               <img 
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                src="https://blogger.googleusercontent.com/img/a/AVvXsEhOuzJ_uiEIDfV-mgvK7Iv7zPw0vn-DhbpLG631bxGdFwxv_j4a3UYmeGWKta4l5BDgnBCYoWccT7DWlMP8h_DMsx7tQbIV2eV-j83PEfPJ5NIW4dlmiQyyicyPIEfrcueyNyyzXMRXmwRC428mUQCtp3jE3rd22ZkmG1SUizuFffZoxH7n42Zl1j_ZMog=w945-h600-p-k-no-nu"
                 alt="Badam Sudhakar Reddy"
                 className="w-full h-full object-cover"
               />
