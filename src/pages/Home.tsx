@@ -19,13 +19,12 @@ const Home: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('19b.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1071081/pexels-photo-1071081.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
         }}
       />
-    
 
         {/* Main Content */}
-        <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
+        <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 py-8">
           {/* Logo */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -35,7 +34,7 @@ const Home: React.FC = () => {
           >
             <div className="flex flex-col items-center space-y-4">
               <img 
-                src="/logo.png" 
+                src="https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" 
                 alt="SSS Events Logo"
                 className="w-40 h-40 object-contain bg-white/10 backdrop-blur-sm rounded p-5 shadow-2xl"
               />
@@ -93,11 +92,10 @@ const Home: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="flex-shrink-0 text-center pb-4"
+          className="relative z-10 flex-shrink-0 text-center pb-4"
         >
           <p className="text-white/60 text-sm italic">Designed by Srinu Badam</p>
         </motion.div>
-      </div>
     </div>
   );
 };

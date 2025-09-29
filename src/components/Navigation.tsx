@@ -24,7 +24,7 @@ const Navigation: React.FC = () => {
           <Link to="/" className="flex-shrink-0">
             <div className="flex items-center space-x-2">
               <img 
-                src="/logo.png" 
+                src="https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop" 
                 alt="SSS Events Logo" 
                 className="w-10 h-10 object-contain"
               />

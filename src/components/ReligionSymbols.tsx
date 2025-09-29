@@ -1,13 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ReligionSymbols: React.FC = () => {
+interface ReligionSymbolsProps {
+  className?: string;
+}
+
+const ReligionSymbols: React.FC<ReligionSymbolsProps> = ({ className = "" }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="flex justify-center items-center space-x-8 mb-8"
+      className={`flex justify-center items-center space-x-8 mb-8 ${className}`}
     >
       {/* Hindu Swastik */}
       <div className="text-4xl text-orange-600 hover:scale-110 transition-transform duration-300">
