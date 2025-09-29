@@ -60,8 +60,7 @@ const About: React.FC = () => {
           className="mb-16"
         >
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Welcome to Tenthouse Decorations & Lightings</h2>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Welcome to SSS Events</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Welcome to SSS Events</h2>
             
             <div className="prose prose-lg text-gray-600 leading-relaxed space-y-4">
               <p>

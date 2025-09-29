@@ -24,11 +24,11 @@ const Navigation: React.FC = () => {
           <Link to="/" className="flex-shrink-0">
             <div className="flex items-center space-x-2">
               <img 
-                src="/src/assets/images/image.png" 
+                src="/logo.png" 
                 alt="SSS Events Logo" 
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-2xl font-bold text-teal-600">SSS Events</span>
+              <span className="text-2xl font-bold text-white">SSS Events</span>
             </div>
           </Link>
 
@@ -41,8 +41,8 @@ const Navigation: React.FC = () => {
                   to={item.path}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                     location.pathname === item.path
-                      ? 'bg-teal-100 text-teal-700'
-                      : 'text-gray-700 hover:bg-teal-50 hover:text-teal-600'
+                      ? 'bg-teal-600 text-white'
+                      : 'text-white hover:bg-teal-600 hover:text-white'
                   }`}
                 >
                   {item.name}
@@ -55,7 +55,7 @@ const Navigation: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-teal-600 hover:bg-teal-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-teal-300 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

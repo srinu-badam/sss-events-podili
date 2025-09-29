@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           >
             <div className="flex flex-col items-center space-y-4">
               <img 
-                src="/src/assets/images/image.png" 
+                src="/logo.png" 
                 alt="SSS Events Logo"
                 className="w-80 h-80 object-contain bg-white/10 backdrop-blur-sm rounded-full p-8 shadow-2xl"
               />
