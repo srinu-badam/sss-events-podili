@@ -12,6 +12,8 @@ interface GalleryItem {
 }
 
 const Gallery: React.FC = () => {
+
+  
   const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -20,7 +22,7 @@ const Gallery: React.FC = () => {
       id: 'natural-flowers',
       title: 'Natural Flower Decorations',
       description: 'Beautiful natural flower arrangements for all occasions',
-      thumbnail: 'https://images.pexels.com/photos/1071081/pexels-photo-1071081.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      thumbnail: '/1.jpg',
       images: [
         '/1.jpg',
         '/2.jpg',
@@ -105,13 +107,22 @@ const Gallery: React.FC = () => {
       description: 'Traditional decorations for haldi ceremonies',
       thumbnail: '/haldii.jpg',
       images: [
-        'https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-        'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-        'https://images.pexels.com/photos/1071081/pexels-photo-1071081.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-        'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+        'https://th.bing.com/th/id/OIP.dsR_LGNQQd5ApYtap4BEkAHaHa?w=186&h=186&c=7&r=0&o=7&pid=1.7&rm=3',
+        'https://th.bing.com/th/id/OIP.1Cc6FohhO2almixGNdYJ8AHaJP?w=156&h=194&c=7&r=0&o=5&pid=1.7',
+        'https://th.bing.com/th/id/OIP.Ly509Zx7Lp2cYNJLaH-C9QHaHa?w=158&h=180&c=7&r=0&o=5&pid=1.7',
+        'https://th.bing.com/th/id/OIP.hZHejjhaMFs9XgwyrsXK5gHaJQ?w=172&h=214&c=7&r=0&o=5&pid=1.7',
+        'https://tse3.mm.bing.net/th/id/OIP.JnCcPd92TGe69NZUBPVtPQHaIv?pid=ImgDet&w=191&h=225&c=7&o=7&rm=3',
+        'https://tse3.mm.bing.net/th/id/OIP.1qEumV6OLYUBJfF771yUugHaHp?pid=ImgDet&w=191&h=197&c=7&o=7&rm=3',
+        'https://tse3.mm.bing.net/th/id/OIP.BQL_4Jmy-n0OrqjoQxSefgHaHa?pid=ImgDet&w=191&h=191&c=7&o=7&rm=3',
+        'https://tse4.mm.bing.net/th/id/OIP.MRMlCCdLuzQTyYa-NpUNwgHaNK?pid=ImgDet&w=188&h=333&c=7&o=7&rm=3',
+        'https://tse2.mm.bing.net/th/id/OIP.lRJ7JNtuj9L3L2TQU5rPhAHaJJ?pid=ImgDet&w=191&h=235&c=7&o=7&rm=3',
+        'https://tse1.mm.bing.net/th/id/OIP.t796sGlztpdv22LFlDhWHgHaJQ?pid=ImgDet&w=191&h=238&c=7&o=7&rm=3',
+        'https://tse4.mm.bing.net/th/id/OIP.05xXX5PkBf20LHI1wJqoNAHaJ3?pid=ImgDet&w=191&h=254&c=7&o=7&rm=3',
       ]
     },
   ];
+
+
 
   const GalleryCard = ({ gallery, index }: { gallery: GalleryItem; index: number }) => {
     const { ref, inView } = useInView({
@@ -145,10 +156,11 @@ const Gallery: React.FC = () => {
     );
   };
 
-  return (
+  return (    
     <div className="min-h-screen pt-20 pb-16">
+          
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+                {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -17,18 +17,18 @@ const Navigation: React.FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-blue-950/95 backdrop-blur-sm shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-teal-950/95 backdrop-blur-sm shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <div className="flex items-center space-x-2">
               <img 
-                src="https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop" 
+                src="/logo.png" 
                 alt="SSS Events Logo" 
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-2xl font-bold text-white">SSS Events</span>
+              <span className="text-2xl font-bold text-white ">SSS Events</span>
             </div>
           </Link>
 
@@ -80,7 +80,7 @@ const Navigation: React.FC = () => {
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                   location.pathname === item.path
                     ? 'bg-teal-100 text-teal-700'
-                    : 'text-gray-700 hover:bg-teal-50 hover:text-teal-600'
+                    : 'text-gray-700 hover:bg-black-50 hover:text-black-600'
                 }`}
               >
                 {item.name}

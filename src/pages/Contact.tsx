@@ -87,17 +87,6 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            {/* Map Embed */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-              <div className="h-64 bg-gradient-to-br from-teal-100 to-purple-100 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-teal-600 mx-auto mb-2" />
-                  <p className="text-gray-600">Interactive Map</p>
-                  <p className="text-sm text-gray-500">(Map will be integrated)</p>
-                </div>
-              </div>
-            </div>
           </motion.div>
 
           {/* Contact Form */}

@@ -38,7 +38,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0d9488;
+  background: white;
 }
 
 /* Smooth transitions for all interactive elements */

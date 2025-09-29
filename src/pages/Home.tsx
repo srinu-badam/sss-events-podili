@@ -32,11 +32,12 @@ const Home: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-12"
           >
+            
             <div className="flex flex-col items-center space-y-4">
               <img 
                 src="/logo.png" 
                 alt="SSS Events Logo"
-                className="w-40 h-40 object-contain bg-white/10 backdrop-blur-sm rounded p-5 shadow-2xl"
+                className="w-50 h-60 object-contain rounded p-7 shadow-3xl"
               />
               <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
                 SSS Events
@@ -54,10 +55,11 @@ const Home: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-center mb-8"
           >
-            <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
+            <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
               <img 
                 src="https://blogger.googleusercontent.com/img/a/AVvXsEhOuzJ_uiEIDfV-mgvK7Iv7zPw0vn-DhbpLG631bxGdFwxv_j4a3UYmeGWKta4l5BDgnBCYoWccT7DWlMP8h_DMsx7tQbIV2eV-j83PEfPJ5NIW4dlmiQyyicyPIEfrcueyNyyzXMRXmwRC428mUQCtp3jE3rd22ZkmG1SUizuFffZoxH7n42Zl1j_ZMog=w945-h600-p-k-no-nu"
                 alt="Badam Sudhakar Reddy"
+                
                 className="w-full h-full object-cover"
               />
             </div>
@@ -94,7 +96,7 @@ const Home: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="relative z-10 flex-shrink-0 text-center pb-4"
         >
-          <p className="text-white/60 text-sm italic">Designed by Srinu Badam</p>
+          <p className="text-white/60 text-sm font-bold ">Designed by Srinu Badam</p>
         </motion.div>
     </div>
   );

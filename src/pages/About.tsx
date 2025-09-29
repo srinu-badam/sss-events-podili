@@ -47,7 +47,7 @@ const About: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">About My Works</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">About Our Works</h1>
           <div className="w-24 h-1 bg-gradient-to-r from-teal-500 to-purple-500 mx-auto mb-6"></div>
         </motion.div>
 
