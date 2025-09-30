@@ -95,7 +95,37 @@ const Gallery: React.FC = () => {
       description: 'Stunning lighting arrangements for evening celebrations',
       thumbnail: '/light.jpg',
       images: [
-       'data:image/webp;base64,UklGRuwKAABXRUJQVlA4IOAKAABwOwCdASpJAbMAPp1OoE0lpCoroXdJOXATiWlud8iVAyM6GfVprT4pEnNEZqZ7+5GYmgA/If7Z52PznmhpMvm/sAfy//Eeh/nK+tPYQ/Xr00vYH+3fsh/sOHBzMTN3XrUZYoZSgpokyjdfxXVYznfKorkGdpXCxZGfTswM9H0STu9jk9w+M8zMLOSHCtcKgfvXWlezK2FvtZGd7C2RB5MpOiziwjsjk//sr3JFQgQig5AelxVx+IJ+ACHCBefajBoMsnu25ohC40o1Cupyhk7DbbOJVe/LMzK4UDR/4vfYBKlJBI8wu4bw2ZNTVFMmP1CA2UDU4Ahlck9U7Tyr0oTJNntd1IiKD9enW4pCIApQPxO4pFI4eCmcaKy8jNADBX1LfDZIZFm8r77StveMUBrFdIki2c7jb8K8Jgs5yn2328myLWd5RdbiinEIT5vofXZh4Qv898dEEA7FC3/UXWWZzl+lQvXVlZ18BI/Kxpp/Xw4YNcg8S/DlxcnKi31VioMB7L0Fp0cERaMXDPjhxMjX8kib1J5OqOa1FMXBehqKLtfmIOfbinXdys1TLs1EViRx+4yeokU55yvaGwcMZZd0aAtkEX5lxhE8KXKPDcY3jfjsDorumRmW4Z1a2NrudhShf6fAAP7wvCKE/FKmUlYOYjP8qUUrD2EWigVRMyDxql8MzzNr7CH7w32eJTsWIjis1uMvK4TpqRA3p27HNmtzbudXtoCdExLmKyDNA2q7c0YxWIgB1HxV9kIuUM0UKY7g+jPp80c15xlfx2jkymn9WeAofTOoBvySixax23XcL8vTPnqe1wU68q85BY04HSavH0srcWkGfo1Egn6YbeqVmlnvuQDYaEZN3wikmNo2Tp0dOvdWLEkVOX1KCUK5OPsdXh3W24KcCL+hoqIMMVnKuiM9dAB4FRIxhNG1DalYWEZ4p+/dmJDDpHk7Zch39OOU3KqPC5B3NF8Uwx3VoQPTne+iNRPZMVVdES7OymziJorHqE2bPbWNRtBW9Sjh0sAU+cOPCh1UdeDF61S92w/A0FXDdJ2IrM+6igDXqAHsphihsZUsO7LUWEeEUnF64i4v50MtrHPXdElnsQNRnQjyRaS3E1YJ8mSa+e0YQttEJB1Wsw2+aU6gdwhEyfK7zai3WFlWX+2u8AUXYnhBUSKTmX4qL5OMsD86bk7x6th6Ti7l/8VUAbrYNhZ69HNMBWJl9tU8MD8GOrCpafnPeTFQEjAErgRhAA/cVtyDY6iLSKOVWH0HdBZQmVfQ+Gj2uJ5BABpBQruuLRIPH3mCZe3ouF0M9BVoXw5bzJaGnkSIIkDo9uxHIOlzV0irj6Whx0Mxx7dIPT7NkYG2ooAmpmRIRvsmAC9UVC3Xbj1dOCAhW4/bfhgtQD7Bn3gEzY8qI+gsA/JIyBkIftd6fgARU9w61WGnY3/KufpPa/Pm46nqytf7v2ZGfWZsM7L9uqhK4iuDOPQtDVrB8V8DDQse2hh3UYhAwM2onxj76GBVWLjeEeyxxRJw+ACyAzlfrCb3HBp5/vVkMdwv+dDRyZ11NgzQYniSCs7+jTkUwiS9EPmGU6gQLkccGR1+4+OJ72/F6ZZFBo+fvJOB/1nnYHVgPw5Gwj2azgGaMNlv2PHY3csxF3Li06dPgj/WWfp3YNnL2N5sf3jWj8j7WbPxtvrp9OY2FmKgNEqP/MqNpTBPdX/Bk7jXTO7TjmJdSz/zk9oq3S3IavnyEX37F/E4Ranlg3fY/8MUxvNRzC/31I+oBmF/J+G0Zz5Yww8NBzOxxHvZP7ejSXzkJ4IvU2A+3gRITzUszsix5tJ8+kpZ7nVmnPQeLYvrxZUbuc2+0CelYE5BsFdUpkmETyT+RlEhnx6qVw41sPl9g5UngXHwFnCe49nbowACsnqHvTFJEBDUAr7EURaELovRgtrUUMAr3jOtijMvoujqW+OchZPxQj/i26RuwYDrgI3VjefMvjNskhivj61ceuWEYblZbMtpTyH56Gafow0C+eOFloOZD3Ki5Bh8uNRYI8MWOBsy9yZpxizILDN4/TsGKYE2J8uTRYvKAPAMAi5HFiFJvahiLNsxfywkU+hyuc7WHVq3/z3TFmVF9Vt2bg/dYGND7O7nmSH+vOJbj2Gzq0UoW+rtnGyeLuaq/y3c7JCahn1JbH6hm4pNV/T9MfKiP/8Qir75BamxRs9ofjLhTBGhwVW/mTJINO45qLiJBvO51ChbgvyyAM4QJTM5DuhKlBx7UApj9L9A8mofMgy6+ma/ecD8p56vi3et6/XnUM21ej1/Yu9WMi1IjxdGQPLTafBUwRbg1jyr/VnC/n+Nbk2lO4ggfClqzN4TG3CGIYOMAOnp7fnguQxsquvLulUBwoPjx+7/AzSXZwz6k8GPH9lvF999BXd1JvjpryrviP4vipkEOJyA3uPOrVnyGEMUlVdfD8OvkoxCm5hmsZsKz6gzxNCgQyf/p3U57C0Gkw4uAZJCWQ1f7qYLKsBBG0ArH0jepNTY8t8KBivRwOuXW6ZVX7/TMLfFr0P9c2nN4SfZF+eoxqL+vHGGnQBWmo7NuWGWfMjiwVtT1ehvOBfe5VvywMmmBot5Qe8MCAE879pUpj6aQ5YWPHHz/D11C/QNRVQ9fcqxY+Hg/1Foz/lYftNHVE7Vvhnus3ALKb1HInVqWLNR8AYM2hocIAS7xckEr9c0ryTjz/f4gqZ+Upu/6Kj754I7d95KlTanItMANia4q/2NVjAiB35d7GUlcC4+pEB6pDKjgNnnwev8/bIJJjRy2XXKYygKKDKz/jwW68ktamd5w36FqZJV63O0gywv6TR2GrdLr1JWyoai4kHd//iht3Jx7EuMjcIo/5Q8H1jq9GFLnbRjvvd40dAqu9Wf59/XlDcuyWAOFZS+lMxU8Oe8K7o6WaJXAFvkjp1FAttU204RDrD4XpMIOL46xKQ5WvX65MP4G9uv+Zvlpu3v2xGWtluYk3MbcRjUYgY52WpNehEtzozUXT2li/sfAtExa+nNSUReOAEvcR32hi2Bm9LwWbv7LLdz7iHdyyi3+OtDDHcG4LDmfZDni8etzae3C8eGgTpt1Jw6jLLBny4LR22QTQxh2RXsV6HsQIgAegMV9+YUeri+RNjwxtfIdlwm1cDU15/BKr+qHLoS6PUhiWP2rpRvvefnsE1R1aiAbDyiwu7DvC4obocgPX8+dUlZ2W1b75iRYNXhSsgG6CsgqqWQew36abiSLoBH4dEuw+JbITFqgi/W0jYH0v1kLn4lSmliafDREZNFzoLivk+PCia/X3fOhDeXlNCo/39vKTGkf6WK3Cq0Uu37ZIZYZt4wRrCLAldQ1hKV8536D1vZRwwGJCQ78CAAUSFCohqWolHxeJ0ded3CeF5ptqeg9ZoohSTsPZzQlfT0a5akfdbG5i76J/i4rksNtPJ+/6vrsBg/4r8lW3VlDywQDK9sJeQeiEyZlN6ybqyQ63rHl5TGMeMrE5NWboEq5WLrpXlYmllao1rfU8aBldkEuKgxl+6QdUHqDV57EIskpvtTn8tXIwVI0qaM3qOKPesATf3DykMMhvui/Z7rQApWzrDnU+IqrFnoE+Wh9pCT93pkJ5EeOaKhCWz07FOzjmCahn2WR7QYQB5/Vfb3PmqwuTDDp+nAQZIryOE3dVMCcz251KKCXNLBQQ6bQQaANOYGFbPo4e8n9+58t52GImcAAAA=',
+       '/70.jpg',
+        '/71.jpg',
+          '/72.jpg',
+          '/73.jpg',
+          '/74.jpg',
+          '/75.jpg',
+          '/76.jpg',
+          '/77.jpg',
+          '/78.jpg',
+          '/79.jpg',
+          '/80.jpg',
+          '/81.jpg',
+          '/82.jpg',
+          '/83.jpg',
+          '/84.jpg',
+          '/85.jpg',
+          '/86.jpg',
+          '/87.jpg',
+          '/88.jpg',
+          '/89.jpg', 
+        '/90.jpg',
+          '/91.jpg',
+          '/92.jpg',
+          '/93.jpg',
+          '/94.jpg',
+          '/95.jpg',
+          '/96.jpg',
+        
+        
+        
+        
       ]
     },
     {
