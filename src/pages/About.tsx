@@ -82,7 +82,7 @@ const About: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20 pb-16">
+    <div className="min-h-screen pt-20 pb-16" id="about-section">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
