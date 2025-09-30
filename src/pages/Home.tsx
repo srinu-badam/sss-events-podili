@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     { icon: Globe, label: 'Website', href: 'https://srisrinivasasaplayarspodili.blogspot.com/?m=1' },
     { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/sri__srinivasa__saplayars/?igsh=aXFmZDlqdmczbnZm#' },
     { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/share/1GZvBKyALG/' },
-    { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/919010791332' },
+    { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/9010791332' },
     { icon: Phone, label: 'Call', href: 'tel:9010791332' },
     { icon: MapPin, label: 'Location', href: 'https://www.google.com/maps/place/Sri+Srinivasa+Tent+house+%26+Decorations,+opp.+to+Udumula+Hospitals,+behind+of+CTB+church,+Podili,+Andhra+Pradesh+523240/data=!4m2!3m1!1s0x3a4ad9e2e229929f:0x19d0bf706a362ad1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjEwLjQYACCenQoqYyw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D&skid=b852c138-af61-4228-bfed-7ccafec42f78' },
   ];
